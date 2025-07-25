@@ -1,0 +1,117 @@
+
+/* google fonts */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+    /* Shared Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Noto Serif", serif;
+    color: #000000;
+}
+span {
+    color: #E95A08;
+}
+p {
+    color: rgba(0, 0, 0, 0.5);
+}
+ul {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+a:hover {
+    color: #E95A08;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header section style */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.navlink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.cart-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+.fa-cart-shopping{
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+.fa-cart-shopping:hover{
+    color: #E95A08;
+}
+.cart-amount{
+    color: #000000;
+}
+/* banner section style */
