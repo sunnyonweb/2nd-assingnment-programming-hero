@@ -68,6 +68,10 @@ a:hover {
     max-width: 1200px;
     margin: 0 auto;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 
 /* header section style */
@@ -468,8 +472,9 @@ a:hover {
     }
     .banner-img{
         order: 1;
+        
     }
-    .banner-content {
+    .banner-contant {
         order: 2;
         padding: 0 20px;
     }
@@ -507,6 +512,11 @@ a:hover {
     .trusted-title {
         font-size: 24px;
     }
+    .trusted-img{
+        max-width: 355px;
+        width: 100%;
+        height: 390px;
+    }
     /* Latest Deals Section style */
     .deals-section{
         padding: 0 20px;
@@ -532,7 +542,7 @@ a:hover {
         height: 350px;
     }
     .newsletter-title {
-        font-size: 24px;
+        font-size: 20px;
     }
     .newsletter-form input{
         padding: 10px;
@@ -542,8 +552,8 @@ a:hover {
         padding: 10px 20px;
     }
     .newsletter-content {
-        max-width: 350px;
-        width: 100%;
+        max-width: 300px;
+       
     }
     .footer-container {
         grid-template-columns: repeat(1, 1fr);
